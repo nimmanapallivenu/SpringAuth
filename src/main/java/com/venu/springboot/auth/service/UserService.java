@@ -1,6 +1,6 @@
-package com.aspire.springboot.auth.service;
+package com.venu.springboot.auth.service;
 
-import com.aspire.springboot.auth.entity.User;
+import com.venu.springboot.auth.entity.User;
 
 public interface UserService {
 

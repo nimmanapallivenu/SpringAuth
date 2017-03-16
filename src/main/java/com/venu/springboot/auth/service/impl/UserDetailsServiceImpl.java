@@ -1,4 +1,4 @@
-package com.aspire.springboot.auth.service.impl;
+package com.venu.springboot.auth.service.impl;
 
 
 
@@ -14,9 +14,9 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.aspire.springboot.auth.entity.Role;
-import com.aspire.springboot.auth.entity.User;
-import com.aspire.springboot.auth.repository.UserRepository;
+import com.venu.springboot.auth.entity.Role;
+import com.venu.springboot.auth.entity.User;
+import com.venu.springboot.auth.repository.UserRepository;
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService{
 

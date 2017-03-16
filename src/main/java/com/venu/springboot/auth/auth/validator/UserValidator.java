@@ -1,4 +1,4 @@
-package com.aspire.springboot.auth.validator;
+package com.venu.springboot.auth.auth.validator;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -6,8 +6,8 @@ import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
-import com.aspire.springboot.auth.entity.User;
-import com.aspire.springboot.auth.service.UserService;
+import com.venu.springboot.auth.entity.User;
+import com.venu.springboot.auth.service.UserService;
 
 @Component
 public class UserValidator implements Validator {

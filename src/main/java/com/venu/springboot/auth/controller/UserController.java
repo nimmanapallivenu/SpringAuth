@@ -1,4 +1,4 @@
-package com.aspire.springboot.auth.controller;
+package com.venu.springboot.auth.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.aspire.springboot.auth.entity.User;
-import com.aspire.springboot.auth.service.SecurityService;
-import com.aspire.springboot.auth.service.UserService;
-import com.aspire.springboot.auth.validator.UserValidator;
+import com.venu.springboot.auth.auth.validator.UserValidator;
+import com.venu.springboot.auth.entity.User;
+import com.venu.springboot.auth.service.SecurityService;
+import com.venu.springboot.auth.service.UserService;
 
 @Controller
 public class UserController {

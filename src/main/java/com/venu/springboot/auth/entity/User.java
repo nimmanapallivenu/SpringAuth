@@ -1,4 +1,4 @@
-package com.aspire.springboot.auth.entity;
+package com.venu.springboot.auth.entity;
 
 import java.util.Set;
 

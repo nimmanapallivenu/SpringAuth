@@ -1,4 +1,4 @@
-package com.aspire.springboot.auth.service;
+package com.venu.springboot.auth.service;
 
 public interface SecurityService {
 
