@@ -1,0 +1,3 @@
+# SpringAuth
+
+Sample Spring application
